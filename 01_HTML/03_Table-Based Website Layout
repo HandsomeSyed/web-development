@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Home Work</title>
+ <style>table {
+      width: 100%;
+      max-width: 900px;
+      margin: 20px auto;
+      border-collapse: collapse;
+      font-family: Arial, sans-serif;
+    }
+    th,td{
+        border: 1px solid #ccc;
+        padding: 12px;
+        text-align: center;
+        vertical-align: middle;
+    }
+    .header{
+        background-color: #f8f9fa;
+      font-weight: bold;
+    }
+    .footer {
+      background-color: #343a40;
+      color: white;
+      font-size: 0.9em;
+    }
+    .services-title {
+      background-color: #007bff;
+      color: white;
+      font-size: 1.3em;
+      padding: 15px;}
+    
+    
+
+ </style>
+</head>
+<body>
+    <table >
+        <!-- Header -->
+        <tr class="header" >
+            <th colspan="5">Call us: <span class="phone">+92 3109552048</span>
+           &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; login/register </th>
+        </tr>
+        <tr> 
+            <th >Home</th>
+            <th>About</th>
+            <th> Services</th>
+            <th>portfolio</th>
+            <th>Contect</th>
+        </tr>
+         <tr class="logo">
+         <th rowspan="3">
+            
+         </th>
+         <!-- banner image  -->
+         <tr>
+       <th colspan="3" rowspan="2">
+        <img src="purple-blue-gradient-banner_884160-4459.jpg"
+             alt="Banner"
+             width="100%">
+         </th>
+       </tr>
+         </tr>
+         <tr class="logo">
+            <th colspan="4"></th>
+         </tr>
+         <tr>
+            <th colspan="5" class="services-title">Ower Services</th>
+         </tr>
+         <tr>
+            <th>web design</th>
+            <th>web devolopment</th>
+            <th>WordPress</th>
+            <th>Degital marketing</th>
+            <th>SEO</th>
+         </tr>
+         <!-- Footer -->
+         <tr class="footer">
+            <th colspan="5">Developed By : <u>Kaka Khel</u> &nbsp; © Copyright 2026</th>
+         </tr>
+        
+         
+       
+        
+    </table>    
+    
+</body>
+</html>
