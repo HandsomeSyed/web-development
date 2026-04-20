@@ -7,6 +7,8 @@ I am building projects using modern web technologies and improving my frontend s
 ## Skills
 - Semantic HTML
 - Modern CSS
+- BootStrap
+- PHP
 - JavaScript ES6
 - Responsive Design
 - Clean Code Practices
