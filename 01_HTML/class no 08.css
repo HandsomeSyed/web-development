@@ -1,0 +1,114 @@
+    body{
+     background-color: aqua;
+     font-family: 'Times New Roman', Times, serif;
+     padding: 0%;
+    
+    
+    }
+     #Top_container{
+           border: 1px solid;
+            height: 40px;
+            background-color: rgb(182, 206, 187);
+            
+          /* Margin: */
+            line-height: 40px;
+            /* txt aline :txt position , line hight and 
+            margin: It is used for the spacing between the two objects   */
+            float: left;
+            display: flex;
+            width: 100%;
+        }
+          #column1{
+            border: 1p solid;
+            height: 100%;
+            width: 400px;
+            background-color: rgb(182, 206, 187);
+        }
+         #column2{ border: 1p solid;
+            height: 100%;
+            width: 500px;
+            background-color: rgb(182, 206, 187);
+           
+        }
+        #column3{
+            border: 1p solid;
+            height: 100%;
+            width: 400px;
+            text-align:center ;
+        }
+      .nevbar{
+            border: 1px solid;
+            height: 70px;
+            width: 100%;
+           background-color: rgb(182, 206, 187); 
+           display: flex;
+           
+           
+            
+        }
+      .box{
+        border: 1px solid;
+        width: 20%;
+        justify-content: center;
+        text-align: center;
+      }
+     #contaniour{
+            border: 1px solid;
+            height: 250px;
+            background-color: rgb(182, 206, 187);
+            float: left;
+            display: flex;
+            width: 100%;
+            
+            
+            
+        }
+         #slider_left{
+            border: 1px solid;
+            height: 100%;
+            float: left;
+            width: 20%;
+           
+
+           
+
+            
+
+        }
+        #main_div{
+            height: 100%;
+            width: 60%;
+            
+            
+            border: 1px solid;
+
+        }
+        #slider_right{
+            border: 1px solid;
+            height: 100%;
+            float: right;
+            width: 20%;
+            display: flex;
+            
+            
+            
+
+
+        }
+        #Services{
+            border: 1px solid;
+            height: 40px;
+            background-color: rgb(182, 206, 187);
+            display:flex;
+            justify-content: center;
+            
+            
+        }
+        #info{
+            border: 1px solid;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            background-color: rgb(182, 206, 187);;
+
+        }

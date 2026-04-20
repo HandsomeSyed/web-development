@@ -1,0 +1,99 @@
+<!-- in this class form , input type txt , input type number , inputtype email ,Paswword, date ,                                               
+ butten , checkbox , Color , Range , Search , hidden  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .txt{
+            
+            
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Form : form in html is used for data collcction. 
+     from tag is used to collect data 
+     it include :
+     txt, numbers , data of birth , address ,date 
+     and in last butten is used to strore data from form to data base  -->
+     <h2>Student registration </h2>
+     <input type="hidden" name="Std_id">
+     <!-- hidden is used to to send and rcive data from database but only admin can see -->
+    <form name="Std_reg_form" method="post" action="">
+       <!-- attributes 
+       1. name 
+       2. Method 
+       3.Action :A part of web page when the submit butten press the data send to same page or next page 
+       4.enctye:  -->
+       <fieldset >
+        <legend>Student Regestration Form</legend>
+       Name:  <br>
+       <input type="text" name="std_name" placeholder="Enter your name" class="txt" >
+       <!-- input tag is use to take data from the user in the web form 
+       Paceholder: auto the txt remove when start txting
+       value: first remove the existing txt and then enter the txt  -->
+       <br></br>
+       Father Name: <br> 
+       <input type="text" name="Std_Fname" placeholder="Enter yoour Father name " class="txt"><br> <br>
+       Registration no: <br> 
+       <input type="number" name="std_reg_no" placeholder="Enter your Reg no" class="txt"><br><br>
+       Email :<br>
+       <input type="email" name="std_email" placeholder="Enter Your Email"><br><br>
+       Passwod: <br>
+       <input type="password" name="std_password" id=""><br><br>
+       Date od birth: <br>
+       <input type="date" name="std_date" id=""> <br><br>
+     
+       <!-- Check Box -->
+        subject : <br> 
+        web designing and devopmnet <input type="checkbox" name="" id="" value="web desing and devopmnet">
+        <br><br> 
+        Networking<input type="checkbox" name="" id="" value="Networking"> 
+        <b></b>
+        Software<input type="checkbox" name="" id="" value="Software"> 
+        <br><br>
+        <!-- butten :
+        1 .sellect 
+            option : value (actual value how send and save in data base ) -->
+         Contery:<br>
+       <select>
+        <option value="Pakistan">Pakistan</option>
+        <option value="Iran">Iran</option>
+        <option value="United States">United States</option>
+        <option value="UNited kingdom">United kingdom</option>
+        <option value="Turky">Turky</option>
+       </select><br><br>
+       <!-- Address -->
+        Address: <br>
+        <textarea name="std_adress" id="" rows="5" c></textarea><br><br>
+       <!-- Radio butten ,passwod -->
+        Select Gender : <br>
+        Male<input type="radio" name="Std_gender" id="">
+        Female<input type="radio" name="Std_gender" id=""> <br><br>
+       
+
+
+        <!-- Butten 
+       1.submit 
+        2.reset
+        3.butten : it dont work without php or other-->
+       <input type="submit" name="std_form_submit" value="Save">
+       <input type="reset" name="Std_reg_reset"><br><br>
+       
+      </fieldset>
+        
+    </form>
+
+</body>
+</html>
+<!-- naming convention : proper name for  not confusing in data handling  -->
+ <!--Method of data handling 
+ 1.get method :form handling method but it send limited data to data base and it is not sensitive 
+  the data show in the url all the fiiled data
+ 2.post method: monst commenly used and it use in large data subimission and it is secure method  -->
+
+ 
